@@ -30,11 +30,11 @@ namespace test
         public override void MoveAction()
         {
             moveTurn++;
-            if (moveTurn < 5) // 3보다 작으면
+            if (moveTurn < 2) // 3보다 작으면
             {
                 return; // 안한다.
             }
-            int randomNumber = random.Next(0, 4); // 0보다 크고 4보다 작음 
+            int randomNumber = random.Next(0, 5); // 0보다 크고 4보다 작음 
 
             Move((Direction)randomNumber); // 이렇게 하면 굳이 스위치문을 안써도 된다
 

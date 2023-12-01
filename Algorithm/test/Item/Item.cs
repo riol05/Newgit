@@ -12,25 +12,16 @@ namespace test
         public string name;
         public int CanUse; // 사용 가능 여부
         public int amount;
-        Inventory inv = Inventory.GetInstance();
-        
+        public Inventory inv = Inventory.GetInstance();
+
+
 
         public string Des()
         {
             return Description;
         }
 
-        public virtual void Use(int command)
-        {
-            if (CanUse == 1)
-            {
-                inv.deleteItem(command);
-            }
-            else
-            {
-                return;
-            }
-            
-        }
+        public abstract void Use(Player player, int command);
+
     }
 }

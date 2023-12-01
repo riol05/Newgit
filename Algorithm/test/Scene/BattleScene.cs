@@ -34,11 +34,11 @@ namespace test
 
         public override void Update()
         {
-            Console.WriteLine("1. 공격 ");
-            Console.WriteLine("2. 방어 ");
-            // 회복
-            // 도망
-            Console.WriteLine("명령을 입력 하세요 : ");
+            Console.WriteLine("  1. 공격 ");
+            Console.WriteLine("  2. 방어 ");
+            Console.WriteLine("  3. 회복 ");// ToDo
+            Console.WriteLine("  4. 도망 ") ;// ToDo
+            Console.Write(" 명령을 입력 하세요 : ");
             string input = Console.ReadLine();
 
             int command;
@@ -74,6 +74,13 @@ namespace test
             Thread.Sleep(1000);
             Console.WriteLine($"{monster.name}에게 {player.Damage} 만큼 데미지를 입혔습니다!");
             Thread.Sleep(1000);
+            if(monster.curHp <= 0 )
+            {
+                Console.WriteLine("몬스터가 쓰러졌다!");
+                Thread.Sleep(1000);
+                EndBattle();
+                return;
+            }
             // 몬스터가 죽지 않았으면 몬스터 행동
             if (false == isDefence) //!isDefence로도 가능 //업계에선 true 와 false를 먼저 쓰게된다.
             {
@@ -87,11 +94,6 @@ namespace test
             {
                 Console.WriteLine($"플레이어가 {monster.name}의 공격을 방어 하였습니다!");
                 Thread.Sleep(1000);
-            }
-            if (monster.curHp <= 0)
-            {
-                // 전투 승리
-                EndBattle(); // 전투를 끝낸다.
             }
             if(player.CurHp <= 0)
             { //게임 오버

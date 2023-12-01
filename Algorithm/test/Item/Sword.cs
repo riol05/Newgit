@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -9,7 +10,7 @@ namespace test
     public class Sword : Item
     {
         private int damage = 10;
-
+        
         public Sword()
         {
             name = "한손검";
@@ -17,24 +18,13 @@ namespace test
             CanUse = 1;
         }  
 
-        public virtual void Use(Player player, int command)
+        public override void Use(Player player,int command)
         {
-            
-
-            if (player.equipSword == false)
+            if (CanUse == 1)
             {
-                Console.WriteLine("한손검을 장비합니다.");
-                player.equipSword = true;
-                player.Damage = player.Damage + damage;
-                base.Use(command);
-
+                inv.deleteItem(command - 1);
             }
-            else
-            {
-                Console.WriteLine("이미 무기를 장착하고 있습니다.");
-                base.Use(command);
-                }
-
+            player.EquipSword(damage);
             }
         }
     }

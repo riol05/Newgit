@@ -80,6 +80,41 @@ namespace test
                 Console.WriteLine("");
             }
         }
+        public int EquipSword(int damage)
+        {
+            
+            if (equipSword == true)
+            {
+                Console.WriteLine("이미 아이템을 장착하고 있습니다.");
+                return this.Damage;
+            }
+            else
+            {
+                equipSword = true;
+                Damage = Damage + damage;
+                Console.WriteLine($"무기를 장착하여 {damage} 만큼 공격력이 상승했습니다.");
+            }
+            return this.Damage;
+        }
+        public int heal(int heal)
+        {
+            if (CurHp == MaxHp)
+            {
+                Console.WriteLine("캐릭터의 HP 가 이미 꽉차있어 물약을 마시지 않습니다");
+                return this.CurHp;
+            }            
+            else
+            {
+                Console.WriteLine($"캐릭터의 Hp가 {heal} 만큼 회복됩니다.");
+                CurHp = heal + CurHp;
+            }
+            if (CurHp > MaxHp)
+            {                
+                CurHp = MaxHp;
+            }
+            Console.WriteLine($"캐릭터의 Hp가 {CurHp} 가 되었습니다.");
+            return this.CurHp;
+        }
         private void LevelUp()
         {
             // 레벨업시 프로세스 구현

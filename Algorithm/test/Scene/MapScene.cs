@@ -8,6 +8,7 @@ namespace test
 {
     public class MapScene : Scene
     {
+        
         public MapScene(Game game) : base(game)
         {
         }
@@ -20,7 +21,7 @@ namespace test
 
         public override void Update()
         {
-        
+
             // 입력
             ConsoleKeyInfo input = Console.ReadKey();
             switch (input.Key) // 플레이어를 이동
@@ -39,17 +40,17 @@ namespace test
                     break;
                 case ConsoleKey.I:
                     game.InvenOpen();
-                    
-                break;
+
+                    break;
             }
-              // 몬스터 이동
-            foreach(Monster monster1 in DataClass.Instance.monsters)
+            // 몬스터 이동
+            foreach (Monster monster1 in DataClass.Instance.monsters)
             {
                 monster1.MoveAction();
             }
             //몬스터가 플레이어랑 만나면 전투씬 호출
             Monster monster = DataClass.Instance.GetMonsterInPosition(DataClass.Instance.player.pos);
-            if(monster != null)
+            if (monster != null)
             {
                 // 플레이어 위치에 몬스터가 있으므로 전투 시작!
                 game.BattleStart(monster);
@@ -61,7 +62,7 @@ namespace test
         {
             DataClass.Instance.LoadLevel();
         }
-        
+
         private void PrintMap()
         {
             StringBuilder sb = new StringBuilder();
@@ -69,7 +70,7 @@ namespace test
             {
                 for (int x = 0; x < DataClass.Instance.map.GetLength(1); x++)
                 {
-                    if (DataClass.Instance.map[y , x])
+                    if (DataClass.Instance.map[y, x])
                     {
                         // true면 땅 그리기
                         sb.Append(' ');
@@ -85,17 +86,19 @@ namespace test
             Console.ForegroundColor = ConsoleColor.White; // 지도는 하얀색
             Console.Write(sb.ToString());// 지도 그려주기
 
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.SetCursorPosition(DataClass.Instance.shop.pos.x, DataClass.Instance.shop.pos.y);
+            Console.Write(DataClass.Instance.shop.icon);
             Console.ForegroundColor = ConsoleColor.Green; // 몬스터는 초록색
-            foreach( Monster monster in DataClass.Instance.monsters) // 몬스터 그려주기
+            foreach (Monster monster in DataClass.Instance.monsters) // 몬스터 그려주기
             {
                 Console.SetCursorPosition(monster.pos.x, monster.pos.y);
                 Console.Write(monster.icon);
             }
-
-            Console.ForegroundColor= ConsoleColor.Red; // 곧 그려줄 플레이어는 빨강색
+            Console.ForegroundColor = ConsoleColor.Red; // 곧 그려줄 플레이어는 빨강색
             Console.SetCursorPosition(DataClass.Instance.player.pos.x, DataClass.Instance.player.pos.y); // 플레이어의 위치를 찾아서
             Console.Write(DataClass.Instance.player.icon);// 플레이어를 렌더링한다.
-           
+
             Console.ForegroundColor = ConsoleColor.White;
         }
 
@@ -113,6 +116,8 @@ namespace test
             Console.SetCursorPosition(DataClass.Instance.map.GetLength(1), 3);
             Console.Write($"  gold : {invenList.gold}G");
             Console.SetCursorPosition(DataClass.Instance.map.GetLength(1), 4);
+            Console.Write($"  ATK  : {DataClass.Instance.player.Damage}");
+            Console.SetCursorPosition(DataClass.Instance.map.GetLength(1), 5);
             Console.Write($"  i. 인벤토리 열기");
 
         }

@@ -28,6 +28,7 @@ namespace test
         public bool[,] map; // 갈수 있는 타일과 없는 타일만 설정 할거기 때문에 bool 형식으로 맵을 만든다
         public bool[,] invenmap;
         public Player player;// 플레이어를 맵에 호출하기 위해
+        public Shop shop;
         public List<Monster> monsters;
 
         public int[] playerLeveltable;        
@@ -40,6 +41,7 @@ namespace test
         {
             player = new Player();
             monsters = new List<Monster>();
+            shop = new Shop();
             playerLeveltable = new int[10]
             {100,200,300,400,500,600,700,800,900,1000};
         }
@@ -47,13 +49,14 @@ namespace test
         public void LoadLevel()
         {
             player.pos = new Position(1, 1);
+            shop.pos = new Position(1, 8);            
             Slime slime = new Slime();
             slime.pos = new Position(7, 6);
             monsters.Add(slime);
 
             Ork ork = new Ork();
             ork.pos = new Position(7, 9);
-            monsters.Add(ork);
+            monsters.Add(ork);            
             Goblin gob = new Goblin();
             gob.pos = new Position(9, 9);
             monsters.Add(gob);

@@ -1,4 +1,9 @@
 {
-  "ExpandedNodes": [],
+  "ExpandedNodes": [
+    "",
+    "\\Algorithm",
+    "\\Algorithm\\test"
+  ],
+  "SelectedNode": "\\Algorithm\\test\\DataClass.cs",
   "PreviewInSolutionExplorer": false
 }

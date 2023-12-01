@@ -48,8 +48,8 @@ namespace test
             if (Full == false)
             {
                 itemList.Add(item);
-               Console.WriteLine($"{itemList[itemList.Where(x => x.Equals(item)).Count() - 1].name}을 획득 하였습니다.");
-            }
+               Console.WriteLine($"{itemList[itemList.Count() - 1].name}을 획득 하였습니다.");
+            }/*[itemList.Where(x => x.Equals(item)).Count() - 1 */
             else   // Full = true;
             {
                 Console.WriteLine("아이템이 가득찼습니다.");
@@ -59,7 +59,7 @@ namespace test
         }
         public void deleteItem(int num)
         {
-            itemList.RemoveAt(num-1);
+            itemList.RemoveAt(num);
         }
         public void SpendGold(int amount)
         {
