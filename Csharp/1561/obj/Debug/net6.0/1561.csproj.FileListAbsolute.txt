@@ -1,0 +1,15 @@
+C:\Users\플밍\source\repos\Csharp\1561\bin\Debug\net6.0\1561.exe
+C:\Users\플밍\source\repos\Csharp\1561\bin\Debug\net6.0\1561.deps.json
+C:\Users\플밍\source\repos\Csharp\1561\bin\Debug\net6.0\1561.runtimeconfig.json
+C:\Users\플밍\source\repos\Csharp\1561\bin\Debug\net6.0\1561.dll
+C:\Users\플밍\source\repos\Csharp\1561\bin\Debug\net6.0\1561.pdb
+C:\Users\플밍\source\repos\Csharp\1561\obj\Debug\net6.0\1561.csproj.AssemblyReference.cache
+C:\Users\플밍\source\repos\Csharp\1561\obj\Debug\net6.0\1561.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\플밍\source\repos\Csharp\1561\obj\Debug\net6.0\1561.AssemblyInfoInputs.cache
+C:\Users\플밍\source\repos\Csharp\1561\obj\Debug\net6.0\1561.AssemblyInfo.cs
+C:\Users\플밍\source\repos\Csharp\1561\obj\Debug\net6.0\1561.csproj.CoreCompileInputs.cache
+C:\Users\플밍\source\repos\Csharp\1561\obj\Debug\net6.0\1561.dll
+C:\Users\플밍\source\repos\Csharp\1561\obj\Debug\net6.0\refint\1561.dll
+C:\Users\플밍\source\repos\Csharp\1561\obj\Debug\net6.0\1561.pdb
+C:\Users\플밍\source\repos\Csharp\1561\obj\Debug\net6.0\1561.genruntimeconfig.cache
+C:\Users\플밍\source\repos\Csharp\1561\obj\Debug\net6.0\ref\1561.dll

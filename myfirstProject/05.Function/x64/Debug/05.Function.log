@@ -1,0 +1,5 @@
+﻿  05.Function.cpp
+C:\Users\플밍\source\repos\myfirstProject\05.Function\05.Function.cpp(71,9): error C2084: 'int main(void)' 함수에 이미 본문이 있습니다.
+C:\Users\플밍\source\repos\myfirstProject\05.Function\05.Function.cpp(54,9): message : 'main'의 이전 정의를 참조하십시오.
+C:\Users\플밍\source\repos\myfirstProject\05.Function\05.Function.cpp(170,12): error C2084: 'int Bigger(int,int)' 함수에 이미 본문이 있습니다.
+C:\Users\플밍\source\repos\myfirstProject\05.Function\05.Function.cpp(49,9): message : 'Bigger'의 이전 정의를 참조하십시오.

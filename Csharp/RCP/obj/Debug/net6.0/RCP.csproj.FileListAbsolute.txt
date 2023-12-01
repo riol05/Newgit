@@ -1,0 +1,15 @@
+C:\Users\플밍\source\repos\Csharp\RCP\bin\Debug\net6.0\RCP.exe
+C:\Users\플밍\source\repos\Csharp\RCP\bin\Debug\net6.0\RCP.deps.json
+C:\Users\플밍\source\repos\Csharp\RCP\bin\Debug\net6.0\RCP.runtimeconfig.json
+C:\Users\플밍\source\repos\Csharp\RCP\bin\Debug\net6.0\RCP.dll
+C:\Users\플밍\source\repos\Csharp\RCP\bin\Debug\net6.0\RCP.pdb
+C:\Users\플밍\source\repos\Csharp\RCP\obj\Debug\net6.0\RCP.csproj.AssemblyReference.cache
+C:\Users\플밍\source\repos\Csharp\RCP\obj\Debug\net6.0\RCP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\플밍\source\repos\Csharp\RCP\obj\Debug\net6.0\RCP.AssemblyInfoInputs.cache
+C:\Users\플밍\source\repos\Csharp\RCP\obj\Debug\net6.0\RCP.AssemblyInfo.cs
+C:\Users\플밍\source\repos\Csharp\RCP\obj\Debug\net6.0\RCP.csproj.CoreCompileInputs.cache
+C:\Users\플밍\source\repos\Csharp\RCP\obj\Debug\net6.0\RCP.dll
+C:\Users\플밍\source\repos\Csharp\RCP\obj\Debug\net6.0\refint\RCP.dll
+C:\Users\플밍\source\repos\Csharp\RCP\obj\Debug\net6.0\RCP.pdb
+C:\Users\플밍\source\repos\Csharp\RCP\obj\Debug\net6.0\RCP.genruntimeconfig.cache
+C:\Users\플밍\source\repos\Csharp\RCP\obj\Debug\net6.0\ref\RCP.dll

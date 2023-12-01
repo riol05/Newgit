@@ -1,0 +1,20 @@
+﻿  10. OOP.cpp
+C:\Users\플밍\source\repos\myfirstProject\10. OOP\10. OOP.cpp(80,10): error C2365: 'Monster::attack': 재정의: 이전 정의는 '데이터 멤버'입니다.
+C:\Users\플밍\source\repos\myfirstProject\10. OOP\10. OOP.cpp(78,9): message : 'Monster::attack' 선언을 참조하십시오.
+C:\Users\플밍\source\repos\myfirstProject\10. OOP\10. OOP.cpp(82,14): error C2143: 구문 오류: ';'이(가) '<<' 앞에 없습니다.
+C:\Users\플밍\source\repos\myfirstProject\10. OOP\10. OOP.cpp(82,14): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+C:\Users\플밍\source\repos\myfirstProject\10. OOP\10. OOP.cpp(82,103): error C2238: ';' 앞에 예기치 않은 토큰이 있습니다.
+C:\Users\플밍\source\repos\myfirstProject\10. OOP\10. OOP.cpp(85,1): error C2059: 구문 오류: '}'
+C:\Users\플밍\source\repos\myfirstProject\10. OOP\10. OOP.cpp(85,1): error C2143: 구문 오류: ';'이(가) '}' 앞에 없습니다.
+  Encapsulation.cpp
+  Inheritance.cpp
+C:\Users\플밍\source\repos\myfirstProject\10. OOP\Inheritance.cpp(66,16): error C2660: 'Monster::TakeHit': 함수는 1개의 인수를 사용하지 않습니다.
+C:\Users\플밍\source\repos\myfirstProject\10. OOP\Inheritance.cpp(28,10): message : 'Monster::TakeHit' 선언을 참조하십시오.
+C:\Users\플밍\source\repos\myfirstProject\10. OOP\Inheritance.cpp(66,16): message : 인수 목록 '(int)'을(를) 일치시키는 동안
+C:\Users\플밍\source\repos\myfirstProject\10. OOP\Inheritance.cpp(78,10): error C2660: 'Monster::TakeHit': 함수는 1개의 인수를 사용하지 않습니다.
+C:\Users\플밍\source\repos\myfirstProject\10. OOP\Inheritance.cpp(28,10): message : 'Monster::TakeHit' 선언을 참조하십시오.
+C:\Users\플밍\source\repos\myfirstProject\10. OOP\Inheritance.cpp(78,10): message : 인수 목록 '(int)'을(를) 일치시키는 동안
+C:\Users\플밍\source\repos\myfirstProject\10. OOP\Inheritance.cpp(79,11): error C2660: 'Monster::TakeHit': 함수는 1개의 인수를 사용하지 않습니다.
+C:\Users\플밍\source\repos\myfirstProject\10. OOP\Inheritance.cpp(28,10): message : 'Monster::TakeHit' 선언을 참조하십시오.
+C:\Users\플밍\source\repos\myfirstProject\10. OOP\Inheritance.cpp(79,11): message : 인수 목록 '(int)'을(를) 일치시키는 동안
+  코드를 생성하고 있습니다...

@@ -1,0 +1,10 @@
+﻿  Game.cpp
+C:\Users\플밍\source\repos\myfirstProject\SkillDamage\Game.cpp(19,22): error C2061: 구문 오류: 식별자 'Warrior'
+C:\Users\플밍\source\repos\myfirstProject\SkillDamage\Game.cpp(24,31): error C2039: 'Getname': 'Player'의 멤버가 아닙니다.
+C:\Users\플밍\source\repos\myfirstProject\SkillDamage\Game.cpp(5,7): message : 'Player' 선언을 참조하십시오.
+  Player.cpp
+  SkillDamage.cpp
+C:\Users\플밍\source\repos\myfirstProject\SkillDamage\SkillDamage.cpp(224,9): warning C4101: 'inputnum' :참조되지 않은 지역 변수입니다.
+C:\Users\플밍\source\repos\myfirstProject\SkillDamage\SkillDamage.cpp(222,12): warning C4930: 'driver getname(void)': 프로토타입 함수가 호출되지 않았습니다. 변수 정의로 사용하려고 한 것은 아닌지 확인하십시오.
+  Warrior.cpp
+  코드를 생성하고 있습니다...

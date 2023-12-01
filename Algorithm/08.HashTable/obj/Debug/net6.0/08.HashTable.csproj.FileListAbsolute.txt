@@ -1,0 +1,5 @@
+C:\Users\User\source\repos\mygit\Algorithm\08.HashTable\obj\Debug\net6.0\08.HashTable.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\mygit\Algorithm\08.HashTable\obj\Debug\net6.0\08.HashTable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\mygit\Algorithm\08.HashTable\obj\Debug\net6.0\08.HashTable.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\mygit\Algorithm\08.HashTable\obj\Debug\net6.0\08.HashTable.AssemblyInfo.cs
+C:\Users\User\source\repos\mygit\Algorithm\08.HashTable\obj\Debug\net6.0\08.HashTable.csproj.CoreCompileInputs.cache

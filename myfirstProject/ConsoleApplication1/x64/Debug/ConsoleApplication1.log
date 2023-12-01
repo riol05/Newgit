@@ -1,0 +1,33 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\플밍\source\repos\myfirstProject\ConsoleApplication1\ConsoleApplication1.cpp(89,9): error C2365: 'Car::speed': 재정의: 이전 정의는 '데이터 멤버'입니다.
+C:\Users\플밍\source\repos\myfirstProject\ConsoleApplication1\ConsoleApplication1.cpp(54,16): message : 'Car::speed' 선언을 참조하십시오.
+C:\Users\플밍\source\repos\myfirstProject\ConsoleApplication1\ConsoleApplication1.cpp(91,9): error C2059: 구문 오류: 'return'
+C:\Users\플밍\source\repos\myfirstProject\ConsoleApplication1\ConsoleApplication1.cpp(91,22): error C2238: ';' 앞에 예기치 않은 토큰이 있습니다.
+C:\Users\플밍\source\repos\myfirstProject\ConsoleApplication1\ConsoleApplication1.cpp(93,18): error C2575: 'print': 멤버 함수와 기본만 virtual일 수 있습니다.
+C:\Users\플밍\source\repos\myfirstProject\ConsoleApplication1\ConsoleApplication1.cpp(93,28): error C2059: 구문 오류: '상수'
+C:\Users\플밍\source\repos\myfirstProject\ConsoleApplication1\ConsoleApplication1.cpp(94,17): error C2575: 'skill': 멤버 함수와 기본만 virtual일 수 있습니다.
+C:\Users\플밍\source\repos\myfirstProject\ConsoleApplication1\ConsoleApplication1.cpp(94,44): error C2059: 구문 오류: '상수'
+C:\Users\플밍\source\repos\myfirstProject\ConsoleApplication1\ConsoleApplication1.cpp(95,1): error C2059: 구문 오류: '}'
+C:\Users\플밍\source\repos\myfirstProject\ConsoleApplication1\ConsoleApplication1.cpp(95,1): error C2143: 구문 오류: ';'이(가) '}' 앞에 없습니다.
+C:\Users\플밍\source\repos\myfirstProject\ConsoleApplication1\ConsoleApplication1.cpp(107,8): error C3668: 'porche::print': 재정의 지정자 'override'가 있는 메서드가 기본 클래스 메서드를 재정의하지 않았습니다.
+C:\Users\플밍\source\repos\myfirstProject\ConsoleApplication1\ConsoleApplication1.cpp(111,10): error C3668: 'porche::skill': 재정의 지정자 'override'가 있는 메서드가 기본 클래스 메서드를 재정의하지 않았습니다.
+C:\Users\플밍\source\repos\myfirstProject\ConsoleApplication1\ConsoleApplication1.cpp(129,9): error C3668: 'BMW::print': 재정의 지정자 'override'가 있는 메서드가 기본 클래스 메서드를 재정의하지 않았습니다.
+C:\Users\플밍\source\repos\myfirstProject\ConsoleApplication1\ConsoleApplication1.cpp(133,9): error C3668: 'BMW::skill': 재정의 지정자 'override'가 있는 메서드가 기본 클래스 메서드를 재정의하지 않았습니다.
+C:\Users\플밍\source\repos\myfirstProject\ConsoleApplication1\ConsoleApplication1.cpp(151,10): error C3668: 'Hyundai::print': 재정의 지정자 'override'가 있는 메서드가 기본 클래스 메서드를 재정의하지 않았습니다.
+C:\Users\플밍\source\repos\myfirstProject\ConsoleApplication1\ConsoleApplication1.cpp(155,9): error C3668: 'Hyundai::skill': 재정의 지정자 'override'가 있는 메서드가 기본 클래스 메서드를 재정의하지 않았습니다.
+C:\Users\플밍\source\repos\myfirstProject\ConsoleApplication1\ConsoleApplication1.cpp(170,13): error C2039: 'skill': 'Car'의 멤버가 아닙니다.
+C:\Users\플밍\source\repos\myfirstProject\ConsoleApplication1\ConsoleApplication1.cpp(34,7): message : 'Car' 선언을 참조하십시오.
+C:\Users\플밍\source\repos\myfirstProject\ConsoleApplication1\ConsoleApplication1.cpp(177,13): error C2039: 'skill': 'Car'의 멤버가 아닙니다.
+C:\Users\플밍\source\repos\myfirstProject\ConsoleApplication1\ConsoleApplication1.cpp(34,7): message : 'Car' 선언을 참조하십시오.
+C:\Users\플밍\source\repos\myfirstProject\ConsoleApplication1\ConsoleApplication1.cpp(184,13): error C2039: 'skill': 'Car'의 멤버가 아닙니다.
+C:\Users\플밍\source\repos\myfirstProject\ConsoleApplication1\ConsoleApplication1.cpp(34,7): message : 'Car' 선언을 참조하십시오.
+C:\Users\플밍\source\repos\myfirstProject\ConsoleApplication1\ConsoleApplication1.cpp(198,13): error C2039: 'print': 'Car'의 멤버가 아닙니다.
+C:\Users\플밍\source\repos\myfirstProject\ConsoleApplication1\ConsoleApplication1.cpp(34,7): message : 'Car' 선언을 참조하십시오.
+C:\Users\플밍\source\repos\myfirstProject\ConsoleApplication1\ConsoleApplication1.cpp(205,13): error C2039: 'print': 'Car'의 멤버가 아닙니다.
+C:\Users\플밍\source\repos\myfirstProject\ConsoleApplication1\ConsoleApplication1.cpp(34,7): message : 'Car' 선언을 참조하십시오.
+C:\Users\플밍\source\repos\myfirstProject\ConsoleApplication1\ConsoleApplication1.cpp(212,13): error C2039: 'print': 'Car'의 멤버가 아닙니다.
+C:\Users\플밍\source\repos\myfirstProject\ConsoleApplication1\ConsoleApplication1.cpp(34,7): message : 'Car' 선언을 참조하십시오.
+C:\Users\플밍\source\repos\myfirstProject\ConsoleApplication1\ConsoleApplication1.cpp(224,10): error C2374: 'car': 재정의. 여러 번 초기화했습니다.
+C:\Users\플밍\source\repos\myfirstProject\ConsoleApplication1\ConsoleApplication1.cpp(223,10): message : 'car' 선언을 참조하십시오.
+C:\Users\플밍\source\repos\myfirstProject\ConsoleApplication1\ConsoleApplication1.cpp(225,10): error C2374: 'car': 재정의. 여러 번 초기화했습니다.
+C:\Users\플밍\source\repos\myfirstProject\ConsoleApplication1\ConsoleApplication1.cpp(223,10): message : 'car' 선언을 참조하십시오.

@@ -1,0 +1,5 @@
+C:\Users\User\source\repos\mygit\Algorithm\05. Queue\obj\Debug\net6.0\05. Queue.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\mygit\Algorithm\05. Queue\obj\Debug\net6.0\05. Queue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\mygit\Algorithm\05. Queue\obj\Debug\net6.0\05. Queue.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\mygit\Algorithm\05. Queue\obj\Debug\net6.0\05. Queue.AssemblyInfo.cs
+C:\Users\User\source\repos\mygit\Algorithm\05. Queue\obj\Debug\net6.0\05. Queue.csproj.CoreCompileInputs.cache

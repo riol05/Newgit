@@ -1,0 +1,5 @@
+C:\Users\User\source\repos\mygit\Algorithm\10.Sort\obj\Debug\net6.0\10.Sort.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\mygit\Algorithm\10.Sort\obj\Debug\net6.0\10.Sort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\mygit\Algorithm\10.Sort\obj\Debug\net6.0\10.Sort.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\mygit\Algorithm\10.Sort\obj\Debug\net6.0\10.Sort.AssemblyInfo.cs
+C:\Users\User\source\repos\mygit\Algorithm\10.Sort\obj\Debug\net6.0\10.Sort.csproj.CoreCompileInputs.cache

@@ -1,0 +1,10 @@
+C:\Users\플밍\source\repos\Algorithm\01.List1\obj\Debug\net6.0\01.List1.csproj.AssemblyReference.cache
+C:\Users\플밍\source\repos\Algorithm\01.List1\obj\Debug\net6.0\01.List1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\플밍\source\repos\Algorithm\01.List1\obj\Debug\net6.0\01.List1.AssemblyInfoInputs.cache
+C:\Users\플밍\source\repos\Algorithm\01.List1\obj\Debug\net6.0\01.List1.AssemblyInfo.cs
+C:\Users\플밍\source\repos\Algorithm\01.List1\obj\Debug\net6.0\01.List1.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\mygit\Algorithm\01.List1\obj\Debug\net6.0\01.List1.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\mygit\Algorithm\01.List1\obj\Debug\net6.0\01.List1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\mygit\Algorithm\01.List1\obj\Debug\net6.0\01.List1.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\mygit\Algorithm\01.List1\obj\Debug\net6.0\01.List1.AssemblyInfo.cs
+C:\Users\User\source\repos\mygit\Algorithm\01.List1\obj\Debug\net6.0\01.List1.csproj.CoreCompileInputs.cache

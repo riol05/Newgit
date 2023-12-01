@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\mygit\Algorithm\06.Heap\bin\Debug\net6.0\06.Heap.exe
+C:\Users\User\source\repos\mygit\Algorithm\06.Heap\bin\Debug\net6.0\06.Heap.deps.json
+C:\Users\User\source\repos\mygit\Algorithm\06.Heap\bin\Debug\net6.0\06.Heap.runtimeconfig.json
+C:\Users\User\source\repos\mygit\Algorithm\06.Heap\bin\Debug\net6.0\06.Heap.dll
+C:\Users\User\source\repos\mygit\Algorithm\06.Heap\bin\Debug\net6.0\06.Heap.pdb
+C:\Users\User\source\repos\mygit\Algorithm\06.Heap\obj\Debug\net6.0\06.Heap.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\mygit\Algorithm\06.Heap\obj\Debug\net6.0\06.Heap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\mygit\Algorithm\06.Heap\obj\Debug\net6.0\06.Heap.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\mygit\Algorithm\06.Heap\obj\Debug\net6.0\06.Heap.AssemblyInfo.cs
+C:\Users\User\source\repos\mygit\Algorithm\06.Heap\obj\Debug\net6.0\06.Heap.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\mygit\Algorithm\06.Heap\obj\Debug\net6.0\06.Heap.dll
+C:\Users\User\source\repos\mygit\Algorithm\06.Heap\obj\Debug\net6.0\refint\06.Heap.dll
+C:\Users\User\source\repos\mygit\Algorithm\06.Heap\obj\Debug\net6.0\06.Heap.pdb
+C:\Users\User\source\repos\mygit\Algorithm\06.Heap\obj\Debug\net6.0\06.Heap.genruntimeconfig.cache
+C:\Users\User\source\repos\mygit\Algorithm\06.Heap\obj\Debug\net6.0\ref\06.Heap.dll
