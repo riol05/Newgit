@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace test
 {
@@ -15,6 +16,7 @@ namespace test
         public int CurHp;
         public int MaxHp;
         public bool equipSword = false;
+        public bool equipArmor = false;
 
         //플레이어 총경험치
         public int exp;
@@ -23,6 +25,7 @@ namespace test
         // 현재 경험치가 몇 레벨의 경험치에 해당하는지 검사하여 레벨을 결정.
         public int Level;
         public int Damage;
+        public int Defence;
         // 방어력 구현하고 싶으면 하자
         public Player()
         {
@@ -79,6 +82,20 @@ namespace test
                 this.Level = Level;
                 Console.WriteLine("");
             }
+        }
+        public int EquipArmor(int defence)
+        {
+            if (equipArmor == true)
+            {
+                Console.WriteLine("이미 아이템을 장착하고 있습니다.");
+                return this.Defence;
+            }
+            else
+            {
+                equipSword = true;
+                Defence = Defence + defence;
+                Console.WriteLine($"무기를 장착하여 {defence} 만큼 공격력이 상승했습니다.");            }
+            return this.Defence;
         }
         public int EquipSword(int damage)
         {

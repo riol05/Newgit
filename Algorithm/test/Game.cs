@@ -12,10 +12,12 @@ namespace test
         private bool Gameover = false;
 
         Scene curScene;
+        Scene prevScene;
         InventoryScene inventoryScene;
         MainMenuScene mainMenuScene;
         MapScene mapScene;
         BattleScene battleScene;
+        ShopScene shopScene;
         public void Run()
         {
             init();
@@ -37,6 +39,8 @@ namespace test
             curScene = mainMenuScene;
             battleScene = new BattleScene(this);
             inventoryScene = new InventoryScene(this);
+            shopScene = new ShopScene(this);
+            prevScene = curScene;
         }
         private void Render()
         {
@@ -55,9 +59,18 @@ namespace test
         {
 
         }
+        public void OpenPrev()
+        {
+            curScene = prevScene;
+        }
         public void InvenOpen()
         {
             curScene = inventoryScene;
+        }
+        public void EntertheShop(Shop shop)
+        {
+            curScene = shopScene;
+            shopScene.EnterShop(shop);
         }
 
         public void BattleStart(Monster monster)

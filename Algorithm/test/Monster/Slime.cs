@@ -25,7 +25,7 @@ namespace test
         public override void Getreward()
         {
             Inventory invenList = Inventory.GetInstance();
-            invenList.AddItem(new Sword());
+            invenList.AddItem(new CSword());
         }
 
         public override void MoveAction()

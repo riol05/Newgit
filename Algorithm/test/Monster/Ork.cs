@@ -23,7 +23,7 @@ namespace test
         public override void Getreward()
         {
             Inventory invenList = Inventory.GetInstance();
-            invenList.AddItem(new Potion2());
+            invenList.AddItem(new APotion());
         }
 
         public override void MoveAction()

@@ -57,6 +57,10 @@ namespace test
                 return;
             }
         }
+        public void sortedList()
+        {
+            itemList.Sort();
+        }
         public void deleteItem(int num)
         {
             itemList.RemoveAt(num);

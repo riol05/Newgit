@@ -13,10 +13,16 @@ namespace test
         public override void Render()
         {
             StringBuilder sb = new StringBuilder();
-
-            sb.AppendLine("1. 게임 시작");
-            sb.AppendLine("2. 게임 종료");
-            sb.Append(" 메뉴를 선택");
+            sb.AppendLine("=========================================");
+            sb.AppendLine("===##########====########======########==");
+            sb.AppendLine("====#=======#====#=======#====#========#=");
+            sb.AppendLine("====########=====########====#===========");
+            sb.AppendLine("====#====#=======#===========#=====#####=");
+            sb.AppendLine("====#=====#======#============##======#==");
+            sb.AppendLine("====#=======#====#===============#####===");
+            sb.AppendLine("            1. 게임 시작");
+            sb.AppendLine("            2. 게임 종료");
+            sb.Append("                 메뉴를 선택");
 
             Console.Write(sb.ToString());
         }

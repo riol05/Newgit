@@ -82,7 +82,7 @@ namespace test
             };
         }
 
-        //public void Inventory()
+        //public void ShopMap()
         //{
         //    player.pos = new Position(8, 8);
         //    invenmap = new bool[,] // [y.x] 배열에선 y가 앞에 가게된다.
@@ -108,6 +108,14 @@ namespace test
                     return monster;
                 }
             }
+            return null;
+        }
+        public Shop ShopInPosition(Position pos) // 이 위치의 몬스터가 누구냐!!
+        {
+                if (pos.x == shop.pos.x && pos.y == shop.pos.y)
+                {
+                    return shop;
+                }
             return null;
         }
     }

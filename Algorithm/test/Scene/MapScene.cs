@@ -56,6 +56,13 @@ namespace test
                 game.BattleStart(monster);
 
             }
+            Shop shop = DataClass.Instance.ShopInPosition(DataClass.Instance.player.pos);
+            if (shop != null)
+            {
+                // 플레이어 위치에 몬스터가 있으므로 전투 시작!
+                game.EntertheShop(shop);
+
+            }
         }
 
         public void GenerateMap()

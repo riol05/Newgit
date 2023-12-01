@@ -30,6 +30,7 @@ namespace test
             sb.AppendLine();
             sb.AppendLine();
             sb.AppendLine();
+            sb.AppendLine("0 . 인벤토리창 정렬");
             sb.AppendLine("1 . 아이템 사용하기");
             sb.AppendLine("2 . 아이템 버리기");
             sb.AppendLine("3 . 인벤토리창 나가기");
@@ -62,6 +63,10 @@ namespace test
             Console.Write(sb.ToString());
             switch (command)
             {
+                case 0:
+                    Console.WriteLine("인벤토리창을 정렬합니다");
+                    inv.sortedList();
+                    break;
                 case 1:
                     Console.WriteLine("사용할 아이템을 선택해주세요.");
                     input = Console.ReadLine();
@@ -79,13 +84,16 @@ namespace test
                         Console.WriteLine("이 인덱스엔 아이템이 존재하지 않습니다.");
                         return;
                     }
-                    Console.WriteLine($" {inv.itemList[command - 1].name} 을 사용합니다");
+                    Console.WriteLine();
+                    Console.WriteLine();
+                    Console.WriteLine();
+                    Console.WriteLine($"   {inv.itemList[command - 1].name} 을 사용합니다");
                     if (command < 0 || command > inv.itemList.Count)
                     {
                         Console.WriteLine("잘못된 선택입니다.");
                         Console.WriteLine("다시 맵 화면으로 나갑니다");
                         Thread.Sleep(1500);
-                        return;
+                        game.OpenPrev();
                     }
 
                     Item selectedMyItem = inv.itemList[command - 1];
@@ -93,7 +101,7 @@ namespace test
                     Console.WriteLine("다시 맵 화면으로 나갑니다");
                     Thread.Sleep(1500);
                     Console.Clear();
-                    game.Map();
+                    game.OpenPrev();
                     break;
                 case 2:
                     Console.WriteLine("버릴 아이템을 선택해주세요.");
@@ -127,12 +135,12 @@ namespace test
                     }
                     Console.WriteLine("다시 맵 화면으로 나갑니다");
                     Thread.Sleep(1500);
-                    game.Map();
+                    game.OpenPrev();
                     break;
                 case 3:
                     Console.WriteLine("다시 맵 화면으로 나갑니다");
                     Thread.Sleep(1500);
-                    game.Map();
+                    game.OpenPrev();
                     break;
                 default:
                     Console.WriteLine("잘못 입력하였습니다.");
