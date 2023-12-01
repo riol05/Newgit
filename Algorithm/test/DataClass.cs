@@ -79,30 +79,23 @@ namespace test
             };
         }
 
-        public void Inventory()
-        {
-            player.pos = new Position(1, 1);
-            invenmap = new bool[,] // [y.x] 배열에선 y가 앞에 가게된다.
-            {
-                { false, false, false, false, false, false, false, false,false,false,false,false, false},
-                { false,  true,  true,  true,  true,  true,  true,  true, true, true, true, true, false},
-                { false, false, false, false, false,  true, false, false,false, true, true, true, false},
-                { false,  true, false,  true,  true,  true,  true,  true, true, true, true, true, false},
-                { false,  true,  true,  true,  true,  true,  true,  true, true, true, true, true, false},
-                { false,  true,  true,  true,  true,  true,  true,  true, true, true, true, true, false},
-                { false, false,  true,  true, false,  true,  true,  true, true, true, true, true, false},
-                { false, false,  true,  true, false,  true,  true,  true, true, true, true, true, false},
-                { false,  true,  true,  true, false,  true,  true,  true, true, true, true, true, false},
-                { false,  true,  true,  true, false, false,  true,  true, true, true, true, true, false},
-                { false,  true,  true,  true,  true,  true,  true,  true, true, true, true, true, false},
-                { false,  true,  true,  true,  true,  true,  true,  true, true, true, true, true, false},
-                { false,  true,  true,  true,  true,  true,  true,  true, true, true, true, true, false},
-                { false,  true,  true,  true,  true,  true,  true,  true, true, true, true, true, false},
-                { false,  true,  true,  true,  true,  true,  true,  true, true, true, true, true, false},
-                { false,  true,  true,  true,  true,  true,  true,  true, true, true, true, true, false},
-                { false, false, false, false, false, false, false, false,false,false,false,false, false},
-            };
-        }
+        //public void Inventory()
+        //{
+        //    player.pos = new Position(8, 8);
+        //    invenmap = new bool[,] // [y.x] 배열에선 y가 앞에 가게된다.
+        //    {
+        //        { false, false, false, false, false, false, false, false, false, false},
+        //        { false,  true,  true,  true,  true,  true,  true,  true,  true, false},
+        //        { false,  true,  true,  true,  true,  true,  true,  true,  true, false},
+        //        { false,  true,  true,  true,  true,  true,  true,  true,  true, false},
+        //        { false,  true,  true,  true,  true,  true,  true,  true,  true, false},
+        //        { false,  true,  true,  true,  true,  true,  true,  true,  true, false},
+        //        { false,  true,  true,  true,  true,  true,  true,  true,  true, false},
+        //        { false,  true,  true,  true,  true,  true,  true,  true,  true, false},
+        //        { false,  true,  true,  true,  true,  true,  true,  true,  true, false},               
+        //        { false, false, false, false, false, false, false, false, false, false},
+        //    };
+        //}
         public Monster GetMonsterInPosition(Position pos) // 이 위치의 몬스터가 누구냐!!
         {
             foreach (Monster monster in monsters)
