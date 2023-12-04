@@ -89,7 +89,8 @@ namespace test
                     DataClass.Instance.inventory.Sort(
                         Comparer<Item1>.Create((a, b)
                         => { return a.name.CompareTo(b.name); })); // sort 하고 싶은 내용을 넣어준다
-                    break;
+                    // => 가 람다식 연산자 
+                    break; // Comparer<Item1>.Create((a, b) 이부분을 CompareTo 함수를 만들어 대체해도 된다.
                 case 2:
                     //무게순 정렬
                     DataClass.Instance.inventory.Sort(
@@ -103,6 +104,14 @@ namespace test
                     Thread.Sleep(1000);
                     break;
             }
+        }
+        private int CompareTo(int a, int b)
+        {
+            if (a > b)
+                return 1;
+            else if (a == b)
+                return 0;
+            else return -1;
         }
     }
 }
