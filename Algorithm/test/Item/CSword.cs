@@ -9,13 +9,14 @@ namespace test
 {
     public class CSword : Item
     {
-        private int damage = 10;
         
         public CSword()
         {
             name = "한손검";
-            Description = $"장착시 공격력을 {damage} 올려줍니다";
+            Description = $"장착시 공격력을 {point} 올려줍니다";
             CanUse = 1;
+            weight = 5;
+            point = 10;
         }  
 
         public override void Use(Player player,int command)
@@ -24,7 +25,7 @@ namespace test
             {
                 inv.deleteItem(command - 1);
             }
-            player.EquipSword(damage);
+            player.EquipSword(point);
             }
         }
     }

@@ -30,7 +30,7 @@ namespace test
         public Player player;// 플레이어를 맵에 호출하기 위해
         public Shop shop;
         public List<Monster> monsters;
-
+        public Inventory inv;
         public int[] playerLeveltable;
 
         // 아이템
@@ -44,9 +44,12 @@ namespace test
             shop = new Shop();
             playerLeveltable = new int[10]
             {100,200,300,400,500,600,700,800,900,1000};
-            inventory = new List<Item1>();
-            inventory.Add(new Potion());// 포션하나 주고 시작
-            inventory.Add(new LargePotion());
+            //inventory = new List<Item1>();
+            //inventory.Add(new Potion());// 포션하나 주고 시작
+            //inventory.Add(new LargePotion());
+            inv = Inventory.GetInstance();
+            inv.itemList.Add(new APotion());
+            inv.itemList.Add(new BPotion());
         }
 
         public void LoadLevel()
@@ -113,7 +116,7 @@ namespace test
             }
             return null;
         }
-        public Shop ShopInPosition(Position pos) // 이 위치의 몬스터가 누구냐!!
+        public Shop ShopInPosition(Position pos) 
         {
                 if (pos.x == shop.pos.x && pos.y == shop.pos.y)
                 {

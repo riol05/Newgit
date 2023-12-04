@@ -34,7 +34,7 @@ namespace test
             }
             inven.AddItem(item);
             return;
-        }       
+        }
 
     }
 }

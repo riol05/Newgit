@@ -42,7 +42,7 @@ namespace test
         }
         public bool GetDirection(out Direction direction)
         {
-            List<Direction> path;
+            List<Position> path;
             direction = Direction.UP;
 
             if (false == PathFinding(in DataClass.Instance.map,pos, DataClass.Instance.player.pos, out path))

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace test
 {
-    public abstract class Item1
+    public abstract class Item1 // 교수님 파일
     {
         public string Description;
         public string name;

@@ -36,13 +36,13 @@ namespace test
         {
             DataClass.Instance.Init();
             mainMenuScene = new MainMenuScene(this);
-            mapScene = new MapScene(this);
             curScene = mainMenuScene;
-            battleScene = new BattleScene(this);
-            //inventoryScene = new InventoryScene(this);
-            invenscene = new invenscene(this);
-            shopScene = new ShopScene(this);
+            mapScene = new MapScene(this);
             prevScene = curScene;
+            battleScene = new BattleScene(this);
+            //invenscene = new invenscene(this);
+            inventoryScene = new InventoryScene(this);
+            shopScene = new ShopScene(this);
         }
         private void Render()
         {
@@ -67,7 +67,7 @@ namespace test
         }
         public void InvenOpen()
         {
-            curScene = invenscene;
+            curScene = inventoryScene;
         }
         public void EntertheShop(Shop shop)
         {

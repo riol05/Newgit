@@ -20,13 +20,13 @@ namespace test
             Console.WriteLine();
             Console.WriteLine();
             StringBuilder sb = new StringBuilder();
+            sb.AppendLine("\t이름\t무게\t설명");
             for (int i = 0; i < inv.itemList.Count; i++)
             {
-                //sb.Append($"{i + 1} ."); // 주의 하자!! inv 는 인스턴스!
+                sb.AppendLine($"{i + 1}"); // 주의 하자!! inv 는 인스턴스!
 
-                sb.AppendLine($" {inv.itemList[i].name} : {inv.Des(inv.itemList[i])} ");
+                sb.AppendLine($"\t{inv.itemList[i].name}\t{inv.itemList[i].weight}\t{inv.Des(inv.itemList[i])} ");
             }
-            sb.AppendLine();
             sb.AppendLine();
             sb.AppendLine();
             sb.AppendLine();
@@ -53,12 +53,13 @@ namespace test
             }
             Console.Clear();
             StringBuilder sb = new StringBuilder();
+            sb.AppendLine("\t이름\t무게\t설명");
             for (int i = 0; i < inv.itemList.Count; i++)
             {
 
-                sb.Append($"{i + 1} ."); // 주의 하자!! inv 는 인스턴스!
+                sb.Append(i + 1); // 주의 하자!! inv 는 인스턴스!
 
-                sb.AppendLine($" {inv.itemList[i].name} : {inv.Des(inv.itemList[i])} ");
+                sb.AppendLine($"\t{inv.itemList[i].name}\t{inv.itemList[i].weight}\t{inv.Des(inv.itemList[i])} ");
             }
             Console.Write(sb.ToString());
             switch (command)
@@ -66,6 +67,7 @@ namespace test
                 case 0:
                     Console.WriteLine("인벤토리창을 정렬합니다");
                     inv.sortedList();
+
                     break;
                 case 1:
                     Console.WriteLine("사용할 아이템을 선택해주세요.");
@@ -97,14 +99,14 @@ namespace test
                     }
 
                     Item selectedMyItem = inv.itemList[command - 1];
-                    selectedMyItem.Use(player,command); // ctrl + K + D // 줄정렬
+                    selectedMyItem.Use(player, command); // ctrl + K + D // 줄정렬
                     Console.WriteLine("다시 맵 화면으로 나갑니다");
                     Thread.Sleep(1500);
                     Console.Clear();
                     game.OpenPrev();
                     break;
                 case 2:
-                    Console.WriteLine("버릴 아이템을 선택해주세요.");
+                    Console.WriteLine("\t버릴 아이템을 선택해주세요.");
                     input = Console.ReadLine();
                     if (false == int.TryParse(input, out command))
                     {
@@ -146,7 +148,6 @@ namespace test
                     Console.WriteLine("잘못 입력하였습니다.");
                     break;
             }
-
         }
     }
 }

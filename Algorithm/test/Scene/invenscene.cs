@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace test
 {
-    public class invenscene : Scene
+    public class invenscene : Scene // 교수님 파일
     {
         public invenscene(Game game) : base(game)
         {
@@ -104,14 +104,6 @@ namespace test
                     Thread.Sleep(1000);
                     break;
             }
-        }
-        private int CompareTo(int a, int b)
-        {
-            if (a > b)
-                return 1;
-            else if (a == b)
-                return 0;
-            else return -1;
         }
     }
 }

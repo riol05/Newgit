@@ -20,7 +20,6 @@ namespace test
 
     public enum Direction
     {
-        Inventory = 0,
         UP= 1,
         DOWN = 2,
         LEFT = 3,

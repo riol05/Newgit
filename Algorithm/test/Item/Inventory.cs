@@ -59,7 +59,38 @@ namespace test
         }
         public void sortedList()
         {
-            itemList.Sort();
+            Console.WriteLine("1. 이름순 정렬\t 2. 무게순 정렬");
+            string input = Console.ReadLine();
+            int command;
+            if (false == int.TryParse(input, out command))
+            {
+                Console.WriteLine("잘못 입력하셨습니다.");
+                return;
+            }
+            switch (command)
+            {
+                case 1:
+                    // 이름순 정렬
+                    itemList.Sort(
+                        Comparer<Item>.Create((a, b)
+                        =>
+                        { return a.name.CompareTo(b.name); })); // sort 하고 싶은 내용을 넣어준다
+                                                                // => 가 람다식 연산자 
+                    break; // Comparer<Item1>.Create((a, b) 이부분을 CompareTo 함수를 만들어 대체해도 된다.
+                case 2:
+                    //무게순 정렬
+                    itemList.Sort(
+                        Comparer<Item>.Create((a, b)
+                        =>
+                        { return a.weight - b.weight; })); // 무게순 정렬 인트로 weight을 결정했다
+
+                    break;
+                default:
+                    Console.WriteLine("잘못 입력하셨습니다.");
+                    Thread.Sleep(1000);
+                    break;
+
+            }
         }
         public void deleteItem(int num)
         {

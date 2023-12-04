@@ -13,9 +13,8 @@ namespace test
         public int CanUse; // 사용 가능 여부
         public int amount;
         public int weight;
+        public int point;
         public Inventory inv = Inventory.GetInstance();
-
-
 
         public string Des()
         {
