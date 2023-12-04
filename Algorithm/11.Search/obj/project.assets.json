@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\riol05\\Newgit\\Algorithm\\11.Search\\11.Search.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\riol05\\Newgit\\Algorithm\\11.Search\\11.Search.csproj",
       "projectName": "11.Search",
-      "projectPath": "C:\\Users\\User\\Source\\Repos\\riol05\\Newgit\\Algorithm\\11.Search\\11.Search.csproj",
+      "projectPath": "C:\\Users\\User\\source\\repos\\riol05\\Newgit\\Algorithm\\11.Search\\11.Search.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Source\\Repos\\riol05\\Newgit\\Algorithm\\11.Search\\obj\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\riol05\\Newgit\\Algorithm\\11.Search\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -72,5 +72,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "캐시 파일 C:\\Users\\User\\source\\repos\\riol05\\Newgit\\Algorithm\\11.Search\\obj\\project.nuget.cache을(를) 읽는 동안 문제가 발생했습니다. Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

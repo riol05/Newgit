@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "+ARZ6BFEw43Y7DdKpxI04uPmsoCpCsqZSJ0Y7VWpgAgbV+5NFNeSdcC8M1LJyrc439W8jioydcR16Ksv4uskMw==",
+  "dgSpecHash": "jgpvBUCQCetz1hLgHE3ux8466Xp9C30C/0w65FAABUqkJX1S4N3Q+HucghcubkjZ6GtYw4zhmaPq+Hp2qcEJ7w==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\source\\repos\\riol05\\Newgit\\Algorithm\\SingleTon\\SingleTon.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "캐시 파일 C:\\Users\\User\\source\\repos\\riol05\\Newgit\\Algorithm\\SingleTon\\obj\\project.nuget.cache을(를) 읽는 동안 문제가 발생했습니다. Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

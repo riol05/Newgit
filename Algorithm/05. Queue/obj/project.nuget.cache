@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "17aeniHUcXDsc5ksykM9NCJkzKZrWDK94Aik9kMSFu6BEyHNpplHv3acncWadHcE+pejEDDe8whLQVQHrRMXFw==",
+  "dgSpecHash": "nwALuqL2yyWzU8fR7OA+D3Mq6X+qwK+9x7NDyNooOf4ETJr0jNifQHaZ6r9OPgN75gcYoIy7UPv6ByEOvIgTcg==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\source\\repos\\riol05\\Newgit\\Algorithm\\05. Queue\\05. Queue.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "캐시 파일 C:\\Users\\User\\source\\repos\\riol05\\Newgit\\Algorithm\\05. Queue\\obj\\project.nuget.cache을(를) 읽는 동안 문제가 발생했습니다. Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

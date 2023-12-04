@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "1jY3WmvwWSpXa1Ld6qberftN60ANs5plCKZQ0w+lydl+C1ro0Fx5vuj+a+V8Qoqa2XTP0wTLv+GbRuRLnQkt5g==",
+  "dgSpecHash": "IMFFpDUui4VhC6oCzwHjWSJf9uG+YVf6A8r/UDz6fqQEZqParbUx4/t5DAAEll+U5NO9qDP4EL6edS/NJ3n/Hw==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\source\\repos\\riol05\\Newgit\\Algorithm\\07.BinarySearchTree\\07.BinarySearchTree.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "캐시 파일 C:\\Users\\User\\source\\repos\\riol05\\Newgit\\Algorithm\\07.BinarySearchTree\\obj\\project.nuget.cache을(를) 읽는 동안 문제가 발생했습니다. Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

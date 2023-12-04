@@ -11,7 +11,7 @@
         "projectName": "SingleTon",
         "projectPath": "C:\\Users\\User\\source\\repos\\riol05\\Newgit\\Algorithm\\SingleTon\\SingleTon.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Source\\Repos\\riol05\\Newgit\\Algorithm\\SingleTon\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\riol05\\Newgit\\Algorithm\\SingleTon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

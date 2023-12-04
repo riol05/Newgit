@@ -38,8 +38,8 @@ namespace test
         {
             Console.WriteLine("  1. 공격 ");
             Console.WriteLine("  2. 방어 ");
-            Console.WriteLine("  3. 인벤토리 ");// ToDo
-            Console.WriteLine("  4. 도망 ");// ToDo
+            Console.WriteLine("  3. 인벤토리 ");
+            Console.WriteLine("  4. 도망 ");
             Console.Write(" 명령을 입력 하세요 : ");
             string input = Console.ReadLine();
 
