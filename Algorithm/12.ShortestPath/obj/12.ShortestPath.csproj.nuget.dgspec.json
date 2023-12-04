@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Source\\Repos\\riol05\\Newgit\\Algorithm\\12.ShortestPath\\12.ShortestPath.csproj": {}
+    "C:\\Users\\User\\source\\repos\\riol05\\Newgit\\Algorithm\\12.ShortestPath\\12.ShortestPath.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Source\\Repos\\riol05\\Newgit\\Algorithm\\12.ShortestPath\\12.ShortestPath.csproj": {
+    "C:\\Users\\User\\source\\repos\\riol05\\Newgit\\Algorithm\\12.ShortestPath\\12.ShortestPath.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\riol05\\Newgit\\Algorithm\\12.ShortestPath\\12.ShortestPath.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\riol05\\Newgit\\Algorithm\\12.ShortestPath\\12.ShortestPath.csproj",
         "projectName": "12.ShortestPath",
-        "projectPath": "C:\\Users\\User\\Source\\Repos\\riol05\\Newgit\\Algorithm\\12.ShortestPath\\12.ShortestPath.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\riol05\\Newgit\\Algorithm\\12.ShortestPath\\12.ShortestPath.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\User\\Source\\Repos\\riol05\\Newgit\\Algorithm\\12.ShortestPath\\obj\\",
         "projectStyle": "PackageReference",

@@ -17,6 +17,7 @@ namespace test
             PrintMap();
             // 체력과 레벨 상태창을 볼수있게 해자
             PrintInfo();
+            PrintMenu();
         }
 
         public override void Update()
@@ -125,8 +126,12 @@ namespace test
             Console.SetCursorPosition(DataClass.Instance.map.GetLength(1), 4);
             Console.Write($"  ATK  : {DataClass.Instance.player.Damage}");
             Console.SetCursorPosition(DataClass.Instance.map.GetLength(1), 5);
-            Console.Write($"  i. 인벤토리 열기");
 
+        }
+        private void PrintMenu()
+        {
+            Console.SetCursorPosition(0, DataClass.Instance.map.GetLength(0)+1);
+            Console.WriteLine("이동 : 방향키\t 인벤토리 : I");
         }
     }
 }

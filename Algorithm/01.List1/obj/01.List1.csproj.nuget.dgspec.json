@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Source\\Repos\\riol05\\Newgit\\Algorithm\\01.List1\\01.List1.csproj": {}
+    "C:\\Users\\User\\source\\repos\\riol05\\Newgit\\Algorithm\\01.List1\\01.List1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Source\\Repos\\riol05\\Newgit\\Algorithm\\01.List1\\01.List1.csproj": {
+    "C:\\Users\\User\\source\\repos\\riol05\\Newgit\\Algorithm\\01.List1\\01.List1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\riol05\\Newgit\\Algorithm\\01.List1\\01.List1.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\riol05\\Newgit\\Algorithm\\01.List1\\01.List1.csproj",
         "projectName": "01.List1",
-        "projectPath": "C:\\Users\\User\\Source\\Repos\\riol05\\Newgit\\Algorithm\\01.List1\\01.List1.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\riol05\\Newgit\\Algorithm\\01.List1\\01.List1.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\User\\Source\\Repos\\riol05\\Newgit\\Algorithm\\01.List1\\obj\\",
         "projectStyle": "PackageReference",

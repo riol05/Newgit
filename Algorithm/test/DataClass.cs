@@ -31,10 +31,10 @@ namespace test
         public Shop shop;
         public List<Monster> monsters;
 
-        public int[] playerLeveltable;        
+        public int[] playerLeveltable;
 
         // 아이템
-        
+        public List<Item1> inventory; // 플레이어 인벤토리
         // 인벤토리
         
         public void Init()
@@ -44,6 +44,9 @@ namespace test
             shop = new Shop();
             playerLeveltable = new int[10]
             {100,200,300,400,500,600,700,800,900,1000};
+            inventory = new List<Item1>();
+            inventory.Add(new Potion());// 포션하나 주고 시작
+            inventory.Add(new LargePotion());
         }
 
         public void LoadLevel()

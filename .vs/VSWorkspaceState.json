@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Algorithm",
-    "\\Algorithm\\test"
+    "\\Algorithm\\test",
+    "\\Algorithm\\test\\Player"
   ],
-  "SelectedNode": "\\Algorithm\\test\\DataClass.cs",
+  "SelectedNode": "\\Algorithm\\test\\Player\\Player.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Source\\Repos\\riol05\\Newgit\\Algorithm\\05. Queue\\05. Queue.csproj": {}
+    "C:\\Users\\User\\source\\repos\\riol05\\Newgit\\Algorithm\\05. Queue\\05. Queue.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Source\\Repos\\riol05\\Newgit\\Algorithm\\05. Queue\\05. Queue.csproj": {
+    "C:\\Users\\User\\source\\repos\\riol05\\Newgit\\Algorithm\\05. Queue\\05. Queue.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\riol05\\Newgit\\Algorithm\\05. Queue\\05. Queue.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\riol05\\Newgit\\Algorithm\\05. Queue\\05. Queue.csproj",
         "projectName": "05. Queue",
-        "projectPath": "C:\\Users\\User\\Source\\Repos\\riol05\\Newgit\\Algorithm\\05. Queue\\05. Queue.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\riol05\\Newgit\\Algorithm\\05. Queue\\05. Queue.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\User\\Source\\Repos\\riol05\\Newgit\\Algorithm\\05. Queue\\obj\\",
         "projectStyle": "PackageReference",

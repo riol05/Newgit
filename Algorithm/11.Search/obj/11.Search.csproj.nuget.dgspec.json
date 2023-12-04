@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Source\\Repos\\riol05\\Newgit\\Algorithm\\11.Search\\11.Search.csproj": {}
+    "C:\\Users\\User\\source\\repos\\riol05\\Newgit\\Algorithm\\11.Search\\11.Search.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Source\\Repos\\riol05\\Newgit\\Algorithm\\11.Search\\11.Search.csproj": {
+    "C:\\Users\\User\\source\\repos\\riol05\\Newgit\\Algorithm\\11.Search\\11.Search.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\riol05\\Newgit\\Algorithm\\11.Search\\11.Search.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\riol05\\Newgit\\Algorithm\\11.Search\\11.Search.csproj",
         "projectName": "11.Search",
-        "projectPath": "C:\\Users\\User\\Source\\Repos\\riol05\\Newgit\\Algorithm\\11.Search\\11.Search.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\riol05\\Newgit\\Algorithm\\11.Search\\11.Search.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\User\\Source\\Repos\\riol05\\Newgit\\Algorithm\\11.Search\\obj\\",
         "projectStyle": "PackageReference",

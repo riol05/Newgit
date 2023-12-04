@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Source\\Repos\\riol05\\Newgit\\Algorithm\\09. AlgorithmTechnic\\09. AlgorithmTechnic.csproj": {}
+    "C:\\Users\\User\\source\\repos\\riol05\\Newgit\\Algorithm\\09. AlgorithmTechnic\\09. AlgorithmTechnic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Source\\Repos\\riol05\\Newgit\\Algorithm\\09. AlgorithmTechnic\\09. AlgorithmTechnic.csproj": {
+    "C:\\Users\\User\\source\\repos\\riol05\\Newgit\\Algorithm\\09. AlgorithmTechnic\\09. AlgorithmTechnic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\riol05\\Newgit\\Algorithm\\09. AlgorithmTechnic\\09. AlgorithmTechnic.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\riol05\\Newgit\\Algorithm\\09. AlgorithmTechnic\\09. AlgorithmTechnic.csproj",
         "projectName": "09. AlgorithmTechnic",
-        "projectPath": "C:\\Users\\User\\Source\\Repos\\riol05\\Newgit\\Algorithm\\09. AlgorithmTechnic\\09. AlgorithmTechnic.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\riol05\\Newgit\\Algorithm\\09. AlgorithmTechnic\\09. AlgorithmTechnic.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\User\\Source\\Repos\\riol05\\Newgit\\Algorithm\\09. AlgorithmTechnic\\obj\\",
         "projectStyle": "PackageReference",

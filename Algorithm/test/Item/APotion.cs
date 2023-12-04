@@ -15,6 +15,7 @@ namespace test
             Description = $"사용자의 체력을 {healPoint} 상승 시켜줍니다";
             CanUse = 1;
             amount = 20;
+            weight = 1;
         }
 
         public override void Use(Player player, int command)

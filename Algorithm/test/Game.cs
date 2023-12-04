@@ -18,6 +18,7 @@ namespace test
         MapScene mapScene;
         BattleScene battleScene;
         ShopScene shopScene;
+        invenscene invenscene;
         public void Run()
         {
             init();
@@ -38,7 +39,8 @@ namespace test
             mapScene = new MapScene(this);
             curScene = mainMenuScene;
             battleScene = new BattleScene(this);
-            inventoryScene = new InventoryScene(this);
+            //inventoryScene = new InventoryScene(this);
+            invenscene = new invenscene(this);
             shopScene = new ShopScene(this);
             prevScene = curScene;
         }
@@ -65,7 +67,7 @@ namespace test
         }
         public void InvenOpen()
         {
-            curScene = inventoryScene;
+            curScene = invenscene;
         }
         public void EntertheShop(Shop shop)
         {
